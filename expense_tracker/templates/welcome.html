@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome - Expense Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; padding: 0; }
+        .container {
+            max-width: 900px; margin: 60px auto; background: #fff; padding: 40px;
+            border-radius: 12px; box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+            text-align: center; line-height: 1.6;
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        p { text-align: justify; font-size: 18px; margin-bottom: 20px; }
+        .btn {
+            display: inline-block; padding: 12px 25px; margin: 10px;
+            border-radius: 6px; text-decoration: none; font-size: 18px; font-weight: bold;
+        }
+        .next { background: #36A2EB; color: #fff; }
+        .register { background: #4CAF50; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Expense Tracker 💰</h1>
+        <p>
+            Managing personal finances is one of the most important habits for leading a secure and stress-free life.
+            Yet, many people often lose track of their spending patterns, resulting in overspending and difficulty in
+            achieving their savings goals. The <b>Expense Tracker App</b> has been built to solve this exact problem.
+            This application allows you to record, monitor, and analyze your daily expenses in a structured and
+            user-friendly way.
+        </p>
+        <p>
+            The app lets you categorize your expenses into common categories such as Food, Travel, Rent, Electricity
+            Bill, Groceries, and more. Each expense entry records the amount, category, description, and date. Over
+            time, these entries are summarized into detailed reports and visualizations. The app generates category-wise
+            charts for every month so you can immediately see where most of your money is going. Whether you are a
+            student trying to manage pocket money, a professional budgeting your salary, or a family keeping track of
+            household expenses, this tool adapts to your needs.
+        </p>
+        <p>
+            To ensure security, the application comes with user authentication. Each user has their own private account
+            where only their expenses are stored and displayed. This ensures complete privacy and personalization.
+            With just a few clicks, you can log in, add your expenses, and view interactive pie charts that give you
+            a clear picture of your financial health. By consistently using this app, you can develop better spending
+            habits, set saving goals, and take full control of your finances.
+        </p>
+        <!-- Buttons -->
+        <a href="{{ url_for('login') }}" class="btn next">➡ Next (Login)</a>
+        <a href="{{ url_for('register') }}" class="btn register">✨ Get Started (Register)</a>
+    </div>
+</body>
+</html>
