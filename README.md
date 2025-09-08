@@ -108,6 +108,3 @@ expense_tracker/
 ---
 
 💡 *Feel free to fork this repo, improve the project, and submit pull requests!* 🚀
-
-💡 *Feel free to fork this repo, improve the project, and submit pull requests!* 🚀
-
